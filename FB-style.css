@@ -1,9 +1,15 @@
 .container {
-    background: rgb(93, 189, 245);
+
 
 }
 
+.block-intro {
+    min-height: 100px;
+    background: rgb(9, 189, 180);
+}
+
 .block-offers {
+    min-height: 100px;
     background: #999;
-    
+
 }
