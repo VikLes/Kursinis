@@ -1,17 +1,56 @@
 .container {
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 
 }
 
+.card {
+    /* display: flex;
+    flex-direction: row;  */
+    
+    
+   
+
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
 .block-intro {
-    min-height: 100px;
+    min-height: 650px;
     background: rgb(9, 189, 180);
+    background-image: url(../picture-assets/overview_devices_rotated_2x.png);
+    background-size: cover;
+    background-position: right center; 
+    background-repeat: no-repeat;
+    /* margin-left: 10px;
+    margin-right: 10px; */
 }
 
 .block-offers {
-    min-height: 100px;
-    background: #999;
+    min-height: 600px;
+    background: rgb(204, 199, 199);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
 
+.card-img-top {
+    position: -10px;
+}
+
+.btn-primary {
+    position: right;
+    background-color: white;
+    color: rgb(20, 95, 255);
+    font-weight: bold;
+    border: 0px;
+}
+
+.btn-link {
+    font-style: italic;
+    color: rgb(100, 149, 255);
+    position: left bottom;
 }
