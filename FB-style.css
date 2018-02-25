@@ -1,45 +1,55 @@
 .container {
     font-family: 'Roboto', sans-serif;
-
 }
 
-.card {
-    /* display: flex;
-    flex-direction: row;  */
-    
-    
-   
-
+.nav {
+    background: rgb(20, 95, 255);
+    box-shadow: 0 0 10px black;
 }
 
-.card-title {
+.nav-link {
+    color: white;
+}
+
+.welcome {
+    color: white;
+    /* font-weight: bold; */
+    padding-top: 100px;
+    padding-left: 50px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.btn-welcome {
+    padding-top: 20px;
+}
+
+.text-welcome {
+    /* padding-top: 22px; */
+}
+
+.card-title . welcome {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 
 .block-intro {
-    min-height: 650px;
-    background: rgb(9, 189, 180);
+    min-height: 410px;
+    background: rgb(20, 95, 255);
     background-image: url(../picture-assets/overview_devices_rotated_2x.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: right center; 
     background-repeat: no-repeat;
-    /* margin-left: 10px;
-    margin-right: 10px; */
 }
 
 .block-offers {
     min-height: 600px;
     background: rgb(204, 199, 199);
-    /* margin-left: 10px;
-    margin-right: 10px; */
 }
 
-.card-img-top {
+/* .card-img-top {
     position: -10px;
-}
+} */
 
 .btn-primary {
     position: right;
@@ -50,7 +60,6 @@
 }
 
 .btn-link {
-    font-style: italic;
     color: rgb(100, 149, 255);
     position: left bottom;
 }
