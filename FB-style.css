@@ -4,12 +4,22 @@
 
 .nav {
     background: rgb(20, 95, 255);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 5px black;
 }
 
 .nav-link {
     color: white;
 }
+
+/* Nesusilygiuoja normaliai. Pažiūrėti kaip ją nustumti į dešinę */
+
+.icon-questions {
+    padding-top: 100px;
+    color: white;
+
+    justify-content: start;
+}
+
 
 .welcome {
     color: white;
@@ -23,18 +33,31 @@
     padding-top: 20px;
 }
 
-.text-welcome {
-    /* padding-top: 22px; */
+.first-icon {
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.card-title . welcome {
+.second-icon {
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.third-icon {
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card-title .welcome {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 
 .block-intro {
-    min-height: 410px;
+    min-height: 500px;
     background: rgb(20, 95, 255);
     background-image: url(../picture-assets/overview_devices_rotated_2x.png);
     background-size: 100%;
@@ -63,3 +86,5 @@
     color: rgb(100, 149, 255);
     position: left bottom;
 }
+
+@media (max-width: 576px) and (min-width: 1199.98px)
