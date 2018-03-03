@@ -7,8 +7,17 @@
     box-shadow: 0 0 5px black;
 }
 
+.spacer {
+    height: 30px;
+    width: 100%;
+}
+
 .nav-link {
     color: white;
+}
+
+.margin-t-30 {
+    margin-top: -30px;
 }
 
 /* Nesusilygiuoja normaliai. Pažiūrėti kaip ją nustumti į dešinę */
@@ -31,6 +40,8 @@
 
 .btn-welcome {
     padding-top: 20px;
+    /* width: 100; */
+    flex-wrap: nowrap;
 }
 
 .first-icon {
@@ -41,7 +52,6 @@
 .second-icon {
     width: 100px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .third-icon {
@@ -63,6 +73,7 @@
     background-size: 100%;
     background-position: right center; 
     background-repeat: no-repeat;
+    /* background-image: 100%; */
 }
 
 .block-offers {
@@ -87,4 +98,8 @@
     position: left bottom;
 }
 
-@media (max-width: 576px) and (min-width: 1199.98px)
+@media (max-width: 576px) and (min-width: 1199.98px) {
+    /* .container {
+    background-size: auto 100%; */
+} }
+ 
