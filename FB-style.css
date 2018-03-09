@@ -9,7 +9,7 @@
 }
 
 .nav {
-    background: rgb(20, 95, 255);
+    background: #039be5;
     box-shadow: 0 0 5px black;
 }
 
@@ -75,7 +75,7 @@
 
 .block-intro {
     min-height: 500px;
-    background: rgb(20, 95, 255);
+    background: #039be5;
     background-image: url(https://raw.githubusercontent.com/VikLes/Kursinis/master/picture-assets/overview_devices_rotated_2x.png);
     background-size: 100%;
     background-position: right center; 
@@ -84,7 +84,7 @@
 
 .block-o-i {
     min-height: 600px;
-    background: rgb(204, 199, 199);
+    background: #cfd8dc;
 }
 
 .card-text {
@@ -93,16 +93,20 @@
 }
 
 .btn-primary {
-    position: right;
+    position: absolute;
+    bottom: .75em;
+    right: .5em;
     background-color: white;
-    color: rgb(20, 95, 255);
+    color: #039be5;
     font-weight: bold;
     border: 0px;
 }
 
 .btn-link {
-    color: rgb(100, 149, 255);
-    position: left bottom;
+    color: #039be5;
+    position: absolute;
+    bottom: .75em;
+    left: .5em;
 }
 
 .card {
