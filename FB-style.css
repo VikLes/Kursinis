@@ -50,9 +50,9 @@
 
 }
 
-/* .icons-block {
-
-} */
+.icon-holder {
+    white-space: nowrap !important;
+}
 
 .welcome-icon {
     /* align-items: center; */
